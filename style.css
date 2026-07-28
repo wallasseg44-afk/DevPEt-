@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{  
+    background-image: url(./assets/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin: 0;  /* remove a borda branca ao redor */
+    min-height: 100vh; /* garante que o fundo cubra totalmente  a tela */
+    
+  /*  background: url(./assets/bg-desktop.jpg) no-repeat top center/cover; */
+} 
+
+body * {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    
+}
+    
+#container {
+    width: 360px;
+    margin: auto; /* o margin auto só centraliza dos lados mais não centraliza o topo e o pé da página */
+   /* margin-top: 56px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto; */
+
+    margin: 56px auto 0px; /*esse aqui substitui o jeito de cima e deixa o código mais organizado */
+}
+
+#profile {
+    text-align: center; /*os elementos em linha da página vão se centralizar */
+    padding: 24px;
+}
+
+#profile img {
+    width: 112px;
+    /* display: none; some com todos os elementos da página*/
+}
+
+#profile p {
+    font-size: 500;
+    line-height: 24px;
+    margin-top: 8px;
+    
+    
+}
+
