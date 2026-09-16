@@ -1,0 +1,13 @@
+{
+  "name": "devpet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Um companheiro para crescer com seus estudos de programação.",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "test": "node --test tests/model.test.mjs",
+    "test:browser": "node tests/browser.mjs"
+  }
+}
